@@ -37,7 +37,7 @@ if typeof(copyfunction) == "function" then
 end
 
 local ThemeManager = {} do
-    ThemeManager.Folder = "xDevilHub"
+    ThemeManager.Folder = "Theme Manager"
     -- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
 
     ThemeManager.Library = nil
