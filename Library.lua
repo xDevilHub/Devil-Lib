@@ -59,7 +59,7 @@ local Library = {
     ShowCustomCursor = true,
     ForceCheckbox = false,
     ShowToggleFrameInKeybinds = true,
-    NotifyOnError = true,
+    NotifyOnError = false,
 
     CantDragForced = false,
 
@@ -70,12 +70,12 @@ local Library = {
     DPIScale = 1,
     CornerRadius = 4,
 
-    IsLightTheme = true,
+    IsLightTheme = false,
     Scheme = {
-        BackgroundColor = Color3.fromRGB(17, 17, 17),
-        MainColor = Color3.fromRGB(30, 30, 30),
-        AccentColor = Color3.fromRGB(0, 255, 61),
-        OutlineColor = Color3.fromRGB(37, 37, 37),
+        BackgroundColor = Color3.fromRGB(15, 15, 15),
+        MainColor = Color3.fromRGB(25, 25, 25),
+        AccentColor = Color3.fromRGB(125, 85, 255),
+        OutlineColor = Color3.fromRGB(40, 40, 40),
         FontColor = Color3.new(1, 1, 1),
         Font = Font.fromEnum(Enum.Font.Code),
 
