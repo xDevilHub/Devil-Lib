@@ -59,7 +59,7 @@ local Library = {
     ShowCustomCursor = true,
     ForceCheckbox = false,
     ShowToggleFrameInKeybinds = true,
-    NotifyOnError = false,
+    NotifyOnError = true,
 
     CantDragForced = false,
 
@@ -70,7 +70,7 @@ local Library = {
     DPIScale = 1,
     CornerRadius = 4,
 
-    IsLightTheme = false,
+    IsLightTheme = true,
     Scheme = {
         BackgroundColor = Color3.fromRGB(17, 17, 17),
         MainColor = Color3.fromRGB(30, 30, 30),
